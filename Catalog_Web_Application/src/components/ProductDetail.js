@@ -38,7 +38,7 @@ const ProductDetail = () => {
         <div className="detail-info">
           <h1 className="detail-title">{product.title}</h1>
           <p className="detail-category">Category: {product.category}</p>
-          <p className="detail-price">${product.price.toFixed(2)}</p>
+          <p className="detail-price">₹{product.price.toFixed(2)}</p>
           <p className="detail-description">{product.description}</p>
         </div>
       </div>
